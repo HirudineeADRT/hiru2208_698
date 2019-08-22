@@ -3,5 +3,5 @@ exports.handler = function (event, context, callback) {
     //second commit
     //change
     //change after open
-    callback(null, { "message": "editing" });
+    callback(null, { "message hiru": "editing" });
 }
