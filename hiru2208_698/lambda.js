@@ -1,4 +1,4 @@
 exports.handler = function(event, context, callback) {
-    //hirudinee
+    //ktest
     callback(null, {"message": "Successfully executed"});
 }
