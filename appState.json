@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "3612b348-bf48-45bc-b87a-59d660e9cb5d": {
+        "id": "3612b348-bf48-45bc-b87a-59d660e9cb5d",
+        "parent": null,
+        "name": "hiru2208_698",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "1c94b690-5e65-4a20-92bf-1ffbba118370"
+        ],
+        "isRemovable": false,
+        "filePath": "hiru2208_698"
+      },
+      "1c94b690-5e65-4a20-92bf-1ffbba118370": {
+        "id": "1c94b690-5e65-4a20-92bf-1ffbba118370",
+        "parent": "3612b348-bf48-45bc-b87a-59d660e9cb5d",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hiru2208_698/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "3612b348-bf48-45bc-b87a-59d660e9cb5d",
+    "openFiles": [
+      "1c94b690-5e65-4a20-92bf-1ffbba118370"
+    ],
+    "currentFileId": "1c94b690-5e65-4a20-92bf-1ffbba118370",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "hiru2208_698",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1566461819048
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "hiru2208_698",
+      "url": "https://github.com/HirudineeADRT/hiru2208_698"
+    }
+  }
+}
