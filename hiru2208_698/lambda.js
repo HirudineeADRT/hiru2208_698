@@ -1,7 +1,7 @@
 exports.handler = function (event, context, callback) {
-    //hirudinee
+    
     //second commit
     //change
-    //change after open
-    callback(null, { "message hiru": "editing" });
+    //kedit
+    callback(null, { "message": "editing" });
 }
