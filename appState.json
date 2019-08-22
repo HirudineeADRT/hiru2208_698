@@ -22,7 +22,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "hiru2208_698/lambda.js",
-        "code": "exports.handler = function (event, context, callback) {\n    //hirudinee\n    //second commit\n    //change\n    callback(null, { \"message\": \"editing\" });\n}",
+        "code": "exports.handler = function (event, context, callback) {\n    //hirudinee\n    //second commit\n    //change\n    //change after open\n    callback(null, { \"message\": \"editing\" });\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -65,7 +65,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1566462329590
+    "lastSave": 1566462371370
   },
   "VCS_STATE": {
     "provider": "GitHub",
